@@ -1,2 +1,2 @@
 fullstop = "."
-print("No way!",fullstop)
+print("No \tway!",fullstop)
