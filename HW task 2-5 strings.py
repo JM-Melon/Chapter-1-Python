@@ -32,7 +32,7 @@ print(pangram[:3] + pangram[16:])
 
 noun = input("Enter a singular noun:")
 print("The plural of ",noun," is ",noun,"s")
-#u can use commas instead of the plusses
+#it doesnt make all words plural 
 
 
 #task 5
