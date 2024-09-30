@@ -1,0 +1,95 @@
+"""
+Jakub
+date:30/9/24
+task 1-5 on lists
+"""
+
+#task 1
+# import random as T
+# 
+# fruits = ["Strawberry","Lemon","Orange","Raspberry","Cherry"]
+# 
+# selection1 = T.randint(0,4)
+# selection2 = T.randint(0,4)
+# selection3 = T.randint(0,4)
+#   
+# print(fruits[selection1])
+# print(fruits[selection2])
+# print(fruits[selection3])
+# 
+# #line 5 creates a list called fruits and gives it 5 strings
+# #line 8,9,10 pick a random interger between 0,1,2,3,4 at random which corelate to each fruit in the list by index
+# #lines 13 ,14,15 display these results
+# #i predict that it will display 3 fruit at random
+# 
+# #task2
+# 
+# #i predict that the modified list is gonna be apple , melon,raspberry,cherry,pineapple
+# fruits = ["Strawberry","Lemon","Orange","Raspberry","Cherry"]
+# print(fruits)
+# 
+# fruits[0] = "Apple"
+# fruit = "Melon"
+# fruits[1] = fruit
+# fruits[2] = "Raspberry"
+# fruits[3] = fruits[4]
+# fruits[4] = "Pineapple"
+# 
+# print(fruits)
+
+#task 3
+
+#the program figures out the output by taking the index rtelating to the work in the list and displaying it
+#we could sue the command fruits.pop() and insert the index of the fruit that grow in ireland
+#it would print the whole list
+
+#task 4 
+# 
+# """
+# 1 = Strawberry/Strawberry
+# 2 = Raspberry/Raspberry
+# 3 = Orange/Orange
+# 4 = 6 / Cherry
+# 5 = Lemon / Lemon
+# 8 = Cherry/Cherry
+# 9 = Raspberry / C
+# 12 = Lemon/ LEmon
+# 14 = Orange/ LEmon
+# """
+# 
+# fruits = ["Strawberry","Lemon","Orange","Raspberry","Cherry"]
+# 
+# print(fruits[0])
+# print(fruits[3])
+# print(fruits[2])
+# print(fruits[len(fruits)-1])
+# print(fruits[1]) 
+# 
+# fruit = fruits[2+2]
+# print(fruit)
+# print(fruit[0])
+# 
+# orange = fruits[1]
+# print(orange)
+# lemon = fruits[1]
+# print(lemon)
+# 
+# print(fruits[0] [0]+fruits[1] [0]+fruits[2][0])
+# 
+#task 5
+# in line 12 the list (pinStripsSuits) is never defined, we can fix this by repalcing (pinStripsSuits) with any other list we alreadfy made
+
+suits = ["Hearts","Diamonds","Spades","Clubs"]
+cardFaces = ["Ace","1","2","3","4","5","6","7","8","9","Jack","Queen","King"]
+
+print(cardFaces[1:10])
+
+colourCards =  cardFaces[10:23]
+print(colourCards)
+
+redSuits = suits[:2]
+blackSuits = suits[2:]
+
+# print(pinStripsSuits)
+print(redSuits)
+print(blackSuits)
